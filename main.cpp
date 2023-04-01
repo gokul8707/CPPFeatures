@@ -2,6 +2,7 @@
 #include "stringviewtest.h"
 #include "stdclamptest.h"
 #include "ifelseandswitchcaseinitializer.h"
+#include "ifconstexprtest.h"
 
 int main()
 {
@@ -13,5 +14,7 @@ int main()
     //ifelse initializer test
     IfElseandSwitchcaseInitializer::testifelseinitializer(34);
 
+    ifconstexprtest<int> test(78);
+    std::cout << test.returnlength() << std::endl;
     return 0;
 }

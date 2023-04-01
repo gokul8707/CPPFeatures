@@ -4,14 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        ifconstexprtest.cpp \
         ifelseandswitchcaseinitializer.cpp \
         main.cpp \
-        nestednamespacetest.cpp \
         stdclamptest.cpp \
         stringviewtest.cpp
 
 HEADERS += \
+    ifconstexprtest.h \
     ifelseandswitchcaseinitializer.h \
-    nestednamespacetest.h \
     stdclamptest.h \
     stringviewtest.h
