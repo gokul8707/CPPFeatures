@@ -9,7 +9,7 @@ IfElseandSwitchcaseInitializer::IfElseandSwitchcaseInitializer()
 
 int IfElseandSwitchcaseInitializer::testifelseinitializer(const int &number)
 {
-    if(int x = std::min(3,5); x == 3)
+    if(int x = std::min(3,number); x == 3)
     {
         std::cout << "number is" << number << std::endl;
         return x;
